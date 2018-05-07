@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+sudo apt-get install git redis-server libboost1.55-all-dev cmake libssl-dev
 git clone https://github.com/electroneropool/cryptonote-universal-pool-variant cn_pool 
 cd cn_pool 
 git pull origin master
